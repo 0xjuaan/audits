@@ -2,7 +2,9 @@
 
 Code under review: [2023-12-stakelink](https://github.com/Cyfrin/2023-12-stake-link) (1414 nSLOC)
 
-Placement: 12th out of 53.
+Contest page: [stakelink-contest](https://www.codehawks.com/contests/clqf7mgla0001yeyfah59c674)
+
+Placement: #11
 
 ## [H-01] Token approvals are not revoked when transferring reSDL across chains, leading to stolen funds.
 >The official submission can be found on codehawks [here](https://www.codehawks.com/submissions/clqf7mgla0001yeyfah59c674/82)
