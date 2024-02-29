@@ -1,4 +1,5 @@
-# Contest Summary
+# Flatmoney
+## Contest Summary
 
 Code under review: [2024-01-flatmoney](https://github.com/sherlock-audit/2023-12-flatmoney) (2400 nSLOC)
 
