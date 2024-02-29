@@ -2,7 +2,7 @@
 
 Code under review: [2023-12-stakelink](https://github.com/Cyfrin/2023-12-stake-link) (1414 nSLOC)
 
-Contest page: [stakelink-contest](https://www.codehawks.com/contests/clqf7mgla0001yeyfah59c674)
+Contest Page: [stakelink-contest](https://www.codehawks.com/contests/clqf7mgla0001yeyfah59c674)
 
 Placement: #11
 
