@@ -12,7 +12,7 @@ jobs:
       - name: Checkout source repo
         uses: actions/checkout@v2
         with:
-          repository: 'your-github-username/audits'
+          repository: '0xjuaan/audits'
           ref: 'main'  # or the branch where your README is updated
 
       - name: Copy README.md to other repo
