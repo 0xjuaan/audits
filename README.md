@@ -1,6 +1,6 @@
 # Juan's Portfolio
 
-Reports for all audit contests can be found [here](https://github.com/0xjuaan/audits/tree/main/contests).
+Reports for all audit contests can be found [here](https://github.com/0xjuaan/audits/tree/main/contests)
 
 ## Competitive audits
 
