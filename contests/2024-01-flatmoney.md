@@ -4,7 +4,7 @@ Code under review: [2024-01-flatmoney](https://github.com/sherlock-audit/2023-12
 
 Contest Page:  [flatmoney-contest](https://audits.sherlock.xyz/contests/132)
 
-Placement: TBD
+Placement: TBD/257
 
 # Findings
 
@@ -296,7 +296,6 @@ vault.updateGlobalPositionData({
 ```
 ## [H-3] A user can bypass the locking of tokens in announced orders, by unlocking it in the LimitOrder contract.
 
-
 ### Summary
 When a user calls `DelayedOrder::announceLeverageAdjust` or `announceLeverageClose`, the position NFT is locked to prevent it from being transferred while there is a pending order. However, the user can bypass this lock by creating a limit order and immediately cancelling it.
 
@@ -432,4 +431,71 @@ function cancelLimitOrder(uint256 tokenId) external {
 
         emit FlatcoinEvents.OrderCancelled({account: positionOwner, orderType: FlatcoinStructs.OrderType.LimitClose});
     }
+```
+## [M-1] Incorrect underflow-prevention logic when updating `marginDepositedTotal` which can lead to underflow and brick the system.
+
+### Summary
+Logic to safeguard against underflow is implemented incorrectly, leading to `_globalPositions.marginDepositedTotal =  1e77`.
+In other cases, it leads to `_globalPositions.marginDepositedTotal =  0` when it shouldn't be.
+
+### Vulnerability Detail
+
+The intention of the following logic in [`FlatcoinVault::settleFundingFees()`](https://github.com/sherlock-audit/2023-12-flatmoney/blob/bba4f077a64f43fbd565f8983388d0e985cb85db/flatcoin-v1/src/FlatcoinVault.sol#232-234) is to prevent underflow when casting `int256(_globalPositions.marginDepositedTotal) + _fundingFees)` to a uint256, attempting to avoid underflow in the odd case that `int256{(_globalPositions.marginDepositedTotal) + _fundingFees} < 0`. 
+
+The mentioned logic:
+```javascript
+_globalPositions.marginDepositedTotal = (int256(_globalPositions.marginDepositedTotal) > _fundingFees)
+            ? uint256(int256(_globalPositions.marginDepositedTotal) + _fundingFees)
+            : 0;
+```
+However, the logic is incorrect in situations where `abs(_fundingFees) >= _globalPositions.marginDepositedTotal`, so the intention is not achieved.
+
+Below are 2 cases that can arise due to this incorrect logic.
+
+**Case 1** (`_fundingFees < 0 && abs(_fundingFees) >= _globalPositions.marginDepositedTotal`):
+
+For example, if `_fundingFees == -5` and `_globalPositions.marginDepositedTotal == 2`, and `FlatcoinVault::settleFundingFees()` is called, while we would intend for `marginDepositedTotal` to be set to `0`, instead the first part of the ternary operator is triggered, it is set to `uint256(-2)` which underflows to become `2^256-3 (~1.2e77)`. 
+
+This will now cause any order execution to fail, due to the inbuilt invariant checks within orders, which reverts if `collateralBalance < trackedCollateral` , where `trackedCollateral` is the same as `_globalPositions.marginDepositedTotal`
+
+<details>
+<summary>The Invariant Check that will cause orders to revert </summary>
+
+```javascript
+        uint256 collateralBalance = vault.collateral().balanceOf(address(vault));
+
+        // this will never be less then collateralBalance (due to the underflow of `marginDepositedTotal`)
+        uint256 trackedCollateral = vault.stableCollateralTotal() + vault.getGlobalPositions().marginDepositedTotal;
+
+        if (collateralBalance < trackedCollateral) revert FlatcoinErrors.InvariantViolation("collateralNet");
+```
+
+> Permalink: https://github.com/sherlock-audit/2023-12-flatmoney/blob/bba4f077a64f43fbd565f8983388d0e985cb85db/flatcoin-v1/src/misc/InvariantChecks.sol#L94-L97
+</details>
+
+**Case 2** (`_fundingFees > 0 && abs(_fundingFees) >= _globalPositions.marginDepositedTotal`):
+
+For example, when `_fundingFees == 15`, `marginDepositedTotal == 11` we would expect `marginDepositedTotal` to be set to `26` but instead, the second part of the ternary operator is triggered, setting `marginDepositedTotal` to zero which is not intended.
+
+This case is less severe since there is no overflow/underflow (so no DoS) but `marginDepositedTotal` is incorrectly set to 0 when it should be incremented to 26, disrupting the protocol's functionality.
+
+### Impact:
+
+The attempted safeguard against underflow does not have sound logic, leading to integer underflow of `marginDepositedTotal`. The incorrect logic can lead to a permanent DoS given certain conditions (`_fundingFees < 0`), and in other conditions leads to incorrect accounting (`_fundingFees > 0`).
+
+
+### Recommended Mitigation:
+
+Fix the logic by implementing the updating of `_globalPositions.marginDepositedTotal` in a way that is more similar to the updating of  `stableCollateralTotal` in `FlatcoinVault::_updateStableCollateralTotal()`.
+
+```diff
+-_globalPositions.marginDepositedTotal = (int256(_globalPositions.marginDepositedTotal) > _fundingFees)
+-            ? uint256(int256(_globalPositions.marginDepositedTotal) + _fundingFees)
+-            : 0;
+
++int256 newMarginDepositedTotal = int256(_globalPositions.marginDepositedTotal) + _fundingFees
++
++_globalPositions.marginDepositedTotal = (newMarginDepositedTotal > 0) 
++                                        ? newMarginDepositedTotal 
++                                        : 0;
 ```
