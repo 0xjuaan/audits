@@ -433,7 +433,7 @@ function cancelLimitOrder(uint256 tokenId) external {
         emit FlatcoinEvents.OrderCancelled({account: positionOwner, orderType: FlatcoinStructs.OrderType.LimitClose});
     }
 ```
-## [M-1] Incorrect underflow-prevention logic when updating `marginDepositedTotal` which can lead to underflow and brick the system.
+## [H-4] Incorrect underflow-prevention logic when updating `marginDepositedTotal` which can lead to underflow and brick the system.
 
 ### Summary
 Logic to safeguard against underflow is implemented incorrectly, leading to `_globalPositions.marginDepositedTotal =  1e77`.

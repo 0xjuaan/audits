@@ -10,7 +10,7 @@ Placement: #11
 # Findings
 
 ## [H-01] Token approvals are not revoked when transferring reSDL across chains, leading to stolen funds.
->The official submission can be found on codehawks [here](https://www.codehawks.com/submissions/clqf7mgla0001yeyfah59c674/82)
+>The official submission on [Codehawks' website](https://www.codehawks.com/submissions/clqf7mgla0001yeyfah59c674/82)
 
 ### Summary
 reSDL token approvals are not deleted when transferring reSDL cross-chain, allowing previously approved users to steal a reSDL lock once it's been transferred back to the original chain. 
