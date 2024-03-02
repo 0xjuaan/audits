@@ -1,0 +1,23 @@
+name: File Sync
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  file_sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetching Local Repository
+        uses: actions/checkout@main
+      - name: File Sync
+        uses: kbrashears5/github-action-file-sync@v3.0.0
+        with:
+          REPOSITORIES: |
+            0xjuaan/repo@main
+          FILES: |
+            README.md
+          TOKEN: ${{ secrets.PAT }}
