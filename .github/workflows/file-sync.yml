@@ -17,7 +17,7 @@ jobs:
         uses: kbrashears5/github-action-file-sync@v3.0.0
         with:
           REPOSITORIES: |
-            0xjuaan/repo@main
+            0xjuaan/0xjuaan@main
           FILES: |
             README.md
           TOKEN: ${{ secrets.PAT }}
