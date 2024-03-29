@@ -7,6 +7,14 @@ Contest Page:  [flatmoney-contest](https://audits.sherlock.xyz/contests/132)
 
 Placement: #7/257
 
+## Findings Summary
+| Severity | Title |
+|------------|---------|
+| [High-1](#h-1-a-malicious-user-can-bypass-limit-order-trading-fees-via-cross-function-re-entrancy)   | A malicious user can bypass limit order trading fees via cross-function re-entrancy |
+| [High-2](#h-2-during-liquidation-global-position-data-is-updated-with-the-wrong-price)  |During liquidation, global position data is updated with `position.lastPrice` rather than `currentPrice`|
+| [High-3](#h-3-a-user-can-bypass-the-locking-of-tokens-in-announced-orders-by-unlocking-it-in-the-limitorder-contract)  |A user can bypass the locking of tokens in announced orders, by unlocking it in the LimitOrder contract.|
+| [High-4](#h-4-incorrect-underflow-prevention-logic-when-updating-margindepositedtotal-which-can-lead-to-underflow-and-brick-the-system) |Incorrect underflow-prevention logic when updating `marginDepositedTotal` which can lead to underflow and brick the system.|
+
 # Findings
 
 ## [H-1] A malicious user can bypass limit order trading fees via cross-function re-entrancy
