@@ -4,7 +4,7 @@ My submissions for all audit contests can be found [here](https://github.com/0xj
 
 ## Competitive audits
 
-| Contest    |Platform| Category                  | Ranking   | Findings |
+| Contest    |Platform| Category                  | Ranking 🏆   | Findings 🔎|
 |------------|---------|------------------|-----------|----------|
 | [Smilee Finance](https://audits.sherlock.xyz/contests/180)| Sherlock | Options, Vaults | #TBD/173 | [3M](https://github.com/0xjuaan/audits/blob/main/contests/2024-02-smilee-finance.md)
 | [Flatmoney](https://audits.sherlock.xyz/contests/132) | Sherlock | Perpetual Futures         | #7/257  | [4H](https://github.com/0xjuaan/audits/blob/main/contests/2024-01-flatmoney.md)        |
