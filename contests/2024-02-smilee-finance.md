@@ -5,7 +5,7 @@ Code under review: [2024-02-smilee-finance](https://github.com/sherlock-audit/20
 
 Contest Page: [smilee-contest](https://audits.sherlock.xyz/contests/180)
 
-Placement: #TBD/173
+Placement: #2/173
 
 ## Findings Summary
 | Severity | Title |
