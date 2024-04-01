@@ -1,5 +1,7 @@
 # Juan's Portfolio
 
+For private audits, reach out via my [twitter profile](https://twitter.com/0xjuaan)
+
 My submissions for all audit contests can be found [here](https://github.com/0xjuaan/audits/tree/main/contests)
 
 ## Competitive audits
