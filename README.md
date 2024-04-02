@@ -3,7 +3,7 @@
 ## Summary
 - All time top 3% of security researchers on the Sherlock platform. [Proof](https://github.com/0xjuaan/audits/assets/122077337/434de832-fd7a-47b7-8a8e-83ecdac6f14c)
 
-- Highest contest placement: [2nd place](https://audits.sherlock.xyz/contests/180)
+- Highest contest placement: [2nd place](https://audits.sherlock.xyz/contests/180/leaderboard)
 
 For private audits, reach out via:
 - Twitter: https://twitter.com/0xjuaan
