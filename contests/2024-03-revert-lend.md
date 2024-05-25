@@ -14,7 +14,7 @@ Placement: #2/105+
 | [High-2](https://github.com/code-423n4/2024-03-revert-lend-findings/issues/54)  |Owner of a position can prevent liquidation due to the 'onERC721Received' callback|
 | [Medium-1](https://github.com/code-423n4/2024-03-revert-lend-findings/issues/53)  |**(Solo Finding)** Incorrect liquidation fee calculation during underwater liquidation, disincentivizing liquidators to participate|
 | [Medium-2](https://github.com/code-423n4/2024-03-revert-lend-findings/issues/110)  |**(Solo Finding)** AutoRange execution can be front-ran to avoid protocol fee, causing loss for protocol|
-| [Medium-3](https://github.com/code-423n4/2024-03-revert-lend-findings/issues/222)  |Repayments and liquidations can be forced to revert by an attacker that repays miniscule amount of shares|
+| [Medium-3](https://github.com/code-423n4/2024-03-revert-lend-findings/issues/222)  |Malicious user can prevent liquidation via front-running and repaying 1 wei worth, causing `debtShares` check to revert|
 
 
 # Findings
