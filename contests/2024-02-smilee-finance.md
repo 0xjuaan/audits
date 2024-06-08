@@ -10,13 +10,13 @@ Placement: #2/173
 ## Findings Summary
 | Severity | Title |
 |------------|---------|
-| [Medium-1](#m-1-whenever-swapprice-oracleprice-minting-via-positionmanager-will-revert-due-to-not-enough-funds-being-obtained-from-user)  | Whenever swapPrice oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user. |
-| [Medium-2](#m-2-the-refunding-feature-in-the-positionmanager-contract-will-always-revert-due-to-insufficient-approval)  |The refunding feature in the PositionManager contract will always revert due to insufficient approval|
-| [Medium-3](#m-3-complete-dos-of-every-dvps-minting-and-burning-due-to-insufficient-access-controls-within-feemanagertrackvaultfee)  |Complete DoS of every DVP's minting and burning, due to insufficient access controls within FeeManager::trackVaultFee.|
+| [Medium-1] | Whenever swapPrice == oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user. |
+| [Medium-2] |The refunding feature in the PositionManager contract will always revert due to insufficient approval|
+| [Medium-3] |Complete DoS of every DVP's minting and burning, due to insufficient access controls within FeeManager::trackVaultFee.|
 
 # Findings
 
-## [M-1] Whenever swapPrice oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user.
+## [M-1] Whenever swapPrice == oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user.
 
 Submitted by: **juan**, cawfree, panprog (Lead Watson)
 
@@ -44,7 +44,7 @@ IERC20Metadata(baseToken).safeTransferFrom(msg.sender, vault, premium_ + vaultFe
 ```
 
 ### Impact
-Whenever `swapPrice oraclePrice`, minting positions via the PositionManager will revert. This is a denial of service to users and this disruption of core protocol functionality can last extended periods of time.
+Whenever `swapPrice == oraclePrice`, minting positions via the PositionManager will revert. This is a denial of service to users and this disruption of core protocol functionality can last extended periods of time.
 
 ### Code Snippet
 https://github.com/sherlock-audit/2024-02-smilee-finance/blob/3241f1bf0c8e951a41dd2e51997f64ef3ec017bd/smilee-v2-contracts/src/DVP.sol#L152-L155
