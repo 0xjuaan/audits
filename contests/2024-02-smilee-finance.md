@@ -10,13 +10,13 @@ Placement: #2/173
 ## Findings Summary
 | Severity | Title |
 |------------|---------|
-| [Medium-1] | Whenever swapPrice == oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user. |
+| [Medium-1] | Whenever swapPrice > oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user. |
 | [Medium-2] |The refunding feature in the PositionManager contract will always revert due to insufficient approval|
 | [Medium-3] |Complete DoS of every DVP's minting and burning, due to insufficient access controls within FeeManager::trackVaultFee.|
 
 # Findings
 
-## [M-1] Whenever swapPrice == oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user.
+## [M-1] Whenever swapPrice > oraclePrice, minting via PositionManager will revert, due to not enough funds being obtained from user.
 
 Submitted by: **juan**, cawfree, panprog (Lead Watson)
 
