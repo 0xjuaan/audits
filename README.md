@@ -11,7 +11,7 @@ For an audit, reach out via:
 
 | Contest    |Platform| Category                  | Ranking 🏆   | Findings 🔎|
 |------------|---------|------------------|-----------|----------|
-| [Arrakis x Valantis](https://audits.sherlock.xyz/contests/195/leaderboard)| Sherlock | Liquidity Management, AMM | **#1**/146 🥇| [6H (2 solo)]()
+| [Arrakis x Valantis](https://audits.sherlock.xyz/contests/195/leaderboard)| Sherlock | Liquidity Management, AMM | **#1**/146 🥇| [6H (2 solo)](https://github.com/sherlock-audit/2024-03-arrakis-judging/issues?q=is%3Aissue+juaan+label%3AReward+)
 | [Revert Lend](https://code4rena.com/audits/2024-03-revert-lend#top)| Code4rena | Lending, UniV3 integration |**#2**/105+ 🥈 | [2H, 3M (2 solo mediums)](https://github.com/0xjuaan/audits/blob/main/contests/2024-03-revert-lend.md) |
 | [Smilee Finance](https://audits.sherlock.xyz/contests/180)| Sherlock | Options, Vaults | **#2**/173 🥈| [3M](https://github.com/0xjuaan/audits/blob/main/contests/2024-02-smilee-finance.md)
 | [Flatmoney](https://audits.sherlock.xyz/contests/132) | Sherlock | Perpetual Futures         | **#7**/257  | [4H](https://github.com/0xjuaan/audits/blob/main/contests/2024-01-flatmoney.md)        |
