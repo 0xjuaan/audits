@@ -18,3 +18,13 @@ For an audit, reach out via:
 | [Stakelink](https://www.codehawks.com/contests/clqf7mgla0001yeyfah59c674) | Codehawks   | Chainlink CCIP, Liquid Staking | **#11**/52       | [1H](https://github.com/0xjuaan/audits/blob/main/contests/2023-12-stakelink.md)    |
 
 My submissions for all audit contests can be found [here](https://audits.sherlock.xyz/watson/juaan)
+
+## Private Audits
+
+### Pashov Audit Group
+I have completed numerous audits as part of [Pashov Audit Group](https://x.com/PashovAuditGrp), a world class smart contract security firm. 
+| Project    |Category| Report |
+|------------|---------|---------|
+|TokenFabric| ERC20 Token launch| Private |
+|DYAD       |Stablecoin, Staking and incentives| Pending |
+
