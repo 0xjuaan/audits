@@ -28,6 +28,6 @@ I have completed numerous audits as part of [Pashov Audit Group](https://x.com/P
 | Project    |Category| Report |
 |------------|---------|---------|
 |TokenFabric| ERC20 Token launch| Private |
-|DYAD       |Stablecoin, Staking and incentives| Pending |
+|DYAD       |Stablecoin, Staking and incentives| [DYAD Report](https://github.com/pashov/audits/blob/master/team/pdf/Dyad-security-review.pdf) |
 |LayerZero  |Message rate limiting functionality| Pending |
 
