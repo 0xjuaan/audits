@@ -3,6 +3,7 @@
 ## Summary
 - Achieved 5 top 3 placements in competitive audits
 - Completed private audits with [Pashov Audit Group](https://x.com/PashovAuditGrp)
+- Trusted by [Liquid Protocol](https://x.com/getliquidapp) as a security partner 
 
 For an audit, reach out via:
 - Twitter: https://twitter.com/0xjuaan
@@ -23,6 +24,11 @@ For an audit, reach out via:
 My submissions for all audit contests can be found [here](https://audits.sherlock.xyz/watson/juaan)
 
 ## Private Audits
+
+### Independent Audits
+| Project    |Category| Report |
+|------------|---------|---------|
+|Liquid Protocol|Liquidity Provisioning| [Liquid-Report](https://github.com/metastable-labs/liquid-protocol/blob/main/audits/liquid-audit.md) |
 
 ### Pashov Audit Group
 I have completed numerous audits as part of [Pashov Audit Group](https://x.com/PashovAuditGrp), a world class smart contract security firm. 
