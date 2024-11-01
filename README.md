@@ -28,7 +28,7 @@ My submissions for all audit contests can be found [here](https://audits.sherloc
 ### Independent Audits
 | Project    |Category| Report |
 |------------|---------|---------|
-|Liquid Protocol|Aerodrome Integration| [Liquid-Report](https://github.com/metastable-labs/liquid-protocol/blob/main/audits/liquid-audit.md) |
+|Liquid Protocol|Aerodrome Integration| [Liquid Report](https://github.com/metastable-labs/liquid-protocol/blob/main/audits/liquid-audit.md) |
 
 ### Pashov Audit Group
 I have completed numerous audits as part of [Pashov Audit Group](https://x.com/PashovAuditGrp), a world class smart contract security firm. 
