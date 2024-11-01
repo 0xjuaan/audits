@@ -1,7 +1,7 @@
 # Juan's Portfolio
 
 ## Summary
-- Achieved 5 top 3 placements in competitive audits
+- Achieved 5 top-3 placements in competitive audits
 - Completed private audits with [Pashov Audit Group](https://x.com/PashovAuditGrp)
 - Trusted by [Liquid Protocol](https://x.com/getliquidapp) as a security partner 
 
