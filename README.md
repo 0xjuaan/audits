@@ -1,7 +1,7 @@
 # Juan's Portfolio
 
 ## Summary
-- All time top 3% of security researchers on the Sherlock platform. [Proof](https://github.com/0xjuaan/audits/assets/122077337/434de832-fd7a-47b7-8a8e-83ecdac6f14c)
+- Achieved 5 top 3 placements in competitive audits
 - Completed private audits with [Pashov Audit Group](https://x.com/PashovAuditGrp)
 
 For an audit, reach out via:
