@@ -18,6 +18,7 @@ For an audit, reach out via:
 | [Smilee Finance](https://audits.sherlock.xyz/contests/180)| Sherlock | Options, Vaults | **#2**/173 🥈| [3M](https://github.com/0xjuaan/audits/blob/main/contests/2024-02-smilee-finance.md) |
 | [Zerolend One](https://audits.sherlock.xyz/contests/466/leaderboard) | Sherlock | Permissionless lending pools | **#2**/277🥈| [10 H, 7M](https://github.com/sherlock-audit/2024-06-new-scope-judging/issues?q=is%3Aissue+Obsidian+label%3AReward+)
 | [Sentiment V2](https://audits.sherlock.xyz/contests/349?filter=results) | Sherlock | Lending | **#3**/357 🥉 | [1H, 7M](https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues?q=is%3Aissue+Obsidian+label%3Areward+sort%3Acreated-asc) | 
+| [Uniswap V4](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659/leaderboard) | Cantina | Decentralised Exchange | **#6**/482 | 2M | 
 | [Flatmoney](https://audits.sherlock.xyz/contests/132) | Sherlock | Perpetual Futures         | **#7**/257  | [4H](https://github.com/0xjuaan/audits/blob/main/contests/2024-01-flatmoney.md)        |
 | [Stakelink](https://www.codehawks.com/contests/clqf7mgla0001yeyfah59c674) | Codehawks   | Chainlink CCIP, Liquid Staking | **#11**/52       | [1H](https://github.com/0xjuaan/audits/blob/main/contests/2023-12-stakelink.md)    |
 
