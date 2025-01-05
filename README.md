@@ -24,6 +24,12 @@ For an audit, reach out via:
 
 My submissions for all audit contests can be found [here](https://audits.sherlock.xyz/watson/juaan)
 
+## Bug Bounties
+As a team with [@0xSpearmint](https://github.com/0xspearmint)
+| Project    |Category|Severity| Report |
+|------------|---------|---------|---------|
+|Fraxlend|Isolated Lending Pools|Critical|Private  |
+
 ## Private Audits
 
 ### Independent Audits
@@ -32,10 +38,12 @@ My submissions for all audit contests can be found [here](https://audits.sherloc
 |Liquid Protocol|Aerodrome Integration| [Liquid Report](https://github.com/metastable-labs/liquid-protocol/blob/main/audits/liquid-audit.md) |
 
 ### Pashov Audit Group
-I have completed numerous audits as part of [Pashov Audit Group](https://x.com/PashovAuditGrp), a world class smart contract security firm. 
 | Project    |Category| Report |
 |------------|---------|---------|
 |TokenFabric| ERC20 Token launch| Private |
 |DYAD       |Stablecoin, Staking and incentives| [DYAD Report](https://github.com/pashov/audits/blob/master/team/pdf/Dyad-security-review.pdf) |
-|LayerZero  |Message rate limiting functionality| Pending |
+|LayerZero  |Message rate limiting functionality| [LZ Report](https://github.com/pashov/audits/blob/master/team/pdf/LZRateLimiter-security-review.pdf) |
+|Peapods Finance  |Volatility Farming, Lending| Pending |
+
+
 
