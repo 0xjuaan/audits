@@ -2,6 +2,7 @@
 
 ## Summary
 - Achieved 6 top-3 placements in competitive audits
+- Senior Watson at [Sherlock](https://sherlock.xyz/)
 - Completed private audits with [Pashov Audit Group](https://x.com/PashovAuditGrp)
 - Trusted by [Liquid Protocol](https://x.com/getliquidapp) as a security partner 
 
