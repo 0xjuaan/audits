@@ -10,7 +10,7 @@ For an audit, reach out via:
 - Twitter: https://twitter.com/0xjuaan
 - Telegram: https://t.me/juan_sec
 
-## Competitive audits
+## Competitive audit highlights
 
 | Contest    |Platform| Category                  | Ranking 🏆   | Findings 🔎|
 |------------|---------|------------------|-----------|----------|
@@ -22,7 +22,6 @@ For an audit, reach out via:
 | [Sentiment V2](https://audits.sherlock.xyz/contests/349?filter=results) | Sherlock | Lending | **#3**/357 🥉 | [1H, 7M](https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues?q=is%3Aissue+Obsidian+label%3Areward+sort%3Acreated-asc) | 
 | [Uniswap V4](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659/leaderboard) | Cantina | Decentralised Exchange | **#6**/482 | 2M | 
 | [Flatmoney](https://audits.sherlock.xyz/contests/132) | Sherlock | Perpetual Futures         | **#7**/257  | [4H](https://github.com/0xjuaan/audits/blob/main/contests/2024-01-flatmoney.md)        |
-| [Stakelink](https://www.codehawks.com/contests/clqf7mgla0001yeyfah59c674) | Codehawks   | Chainlink CCIP, Liquid Staking | **#11**/52       | [1H](https://github.com/0xjuaan/audits/blob/main/contests/2023-12-stakelink.md)    |
 
 My submissions for all audit contests can be found [here](https://audits.sherlock.xyz/watson/juaan)
 
@@ -47,5 +46,12 @@ As a team with [@0xSpearmint](https://github.com/0xspearmint)
 |LayerZero  |Message rate limiting functionality| [LZ Report](https://github.com/pashov/audits/blob/master/team/pdf/LZRateLimiter-security-review.pdf) |
 |Peapods Finance  |Volatility Farming, Lending| Pending |
 
+## Content
+### Youtube
+[Finding breakdown (How To Find A Cross-Contract Reentrancy Exploit)](https://www.youtube.com/watch?v=UN_LGT_5uDE)
+### X Articles
+[How I find vulnerabilities in smart contracts
+](https://x.com/0xjuaan/status/1806696969223745714)
 
-
+[How solidity devs can write safer code
+](https://x.com/0xjuaan/status/1804411620992651701)
