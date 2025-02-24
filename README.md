@@ -33,19 +33,14 @@ As a team with [@0xSpearmint](https://github.com/0xspearmint)
 
 ## Private Audits
 
-### Pashov Audit Group
-| Project    |Category| Report |
-|------------|---------|---------|
-|TokenFabric| ERC20 Token launch| Private |
-|DYAD       |Stablecoin, Staking and incentives| [DYAD Report](https://github.com/pashov/audits/blob/master/team/pdf/Dyad-security-review.pdf) |
-|LayerZero  |Message rate limiting functionality| [LZ Report](https://github.com/pashov/audits/blob/master/team/pdf/LZRateLimiter-security-review.pdf) |
-|Peapods Finance  |Novel yield mechanisms, Lending| Pending |
-|Nitro Finance  |Concentrated Liquidity DEX| Pending |
-
-### Sherlock
-| Project    |Category| Report |
-|------------|---------|---------|
-|IVX Finance|Decentralized options AMM| Private |
+| Project    |Provider|Category| Report |
+|------------|---------|---------|---------|
+|[LayerZero](https://layerzero.network/)  |Pashov Audit Group|Message rate limiting functionality| [LZ Report](https://github.com/pashov/audits/blob/master/team/pdf/LZRateLimiter-security-review.pdf) |
+|[Peapods Finance](https://peapods.finance/)  |Pashov Audit Group|Novel yield mechanisms, Lending| Pending |
+|[IVX Finance](https://www.ivx.fi/)|Sherlock|Decentralized options AMM| Private |
+|[DYAD](https://www.dyadstable.xyz/)       |Pashov Audit Group|Stablecoin, Staking and incentives| [DYAD Report](https://github.com/pashov/audits/blob/master/team/pdf/Dyad-security-review.pdf) |
+|[TokenFabric](https://tokenfabric.xyz/)|Pashov Audit Group| ERC20 Token launch| Private |
+|[Nitro Finance](https://nitrofinance.xyz/)  |Pashov Audit Group|Concentrated Liquidity DEX| Pending |
 
 ## Content
 ### Youtube
