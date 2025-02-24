@@ -17,7 +17,7 @@ For an audit, reach out via:
 | [Numa Money](https://audits.sherlock.xyz/contests/554?filter=results)| Sherlock | Compound V2 Fork, Synthetic RWAs | **#2**/255 🥈| [2H, 3 M (3 unique mediums)](https://audits.sherlock.xyz/contests/554?filter=results)|
 | [Revert Lend](https://code4rena.com/audits/2024-03-revert-lend#top)| Code4rena | Lending, UniV3 integration |**#2**/105+ 🥈 | [2H, 3M (2 unique mediums)](https://github.com/0xjuaan/audits/blob/main/contests/2024-03-revert-lend.md) |
 | [Smilee Finance](https://audits.sherlock.xyz/contests/180)| Sherlock | Decentralized Options AMM | **#2**/173 🥈| [3M](https://github.com/0xjuaan/audits/blob/main/contests/2024-02-smilee-finance.md) |
-| [Zerolend One](https://audits.sherlock.xyz/contests/466/leaderboard) | Sherlock | Permissionless lending pools | **#2**/277🥈| [10 H, 7M](https://github.com/sherlock-audit/2024-06-new-scope-judging/issues?q=is%3Aissue+Obsidian+label%3AReward+)
+| [Zerolend One](https://audits.sherlock.xyz/contests/466/leaderboard) | Sherlock | Aave V3 Fork | **#2**/277🥈| [10 H, 7M](https://github.com/sherlock-audit/2024-06-new-scope-judging/issues?q=is%3Aissue+Obsidian+label%3AReward+)
 | [Sentiment V2](https://audits.sherlock.xyz/contests/349?filter=results) | Sherlock | Lending | **#3**/357 🥉 | [1H, 7M](https://github.com/sherlock-audit/2024-08-sentiment-v2-judging/issues?q=is%3Aissue+Obsidian+label%3Areward+sort%3Acreated-asc) | 
 | [Aave v3.3.0](https://audits.sherlock.xyz/contests/747) | Sherlock | Protocol upgrade + Bad debt accounting | **#3**/482 | [1L (rewarded in side pot)](https://github.com/sherlock-audit/2025-01-aave-v3-3-judging/issues/2)  | 
 | [Uniswap V4](https://cantina.xyz/competitions/e2cf6906-ec8b-4c78-a585-74ac90615659/leaderboard) | Cantina | Decentralised Exchange | **#6**/482 | 2M | 
@@ -27,9 +27,9 @@ My submissions for all audit contests can be found [here](https://audits.sherloc
 
 ## Bug Bounties
 As a team with [@0xSpearmint](https://github.com/0xspearmint)
-| Project    |Category|Severity| Report |
-|------------|---------|---------|---------|
-|Fraxlend|Isolated Lending Pools|Critical|Private  |
+| Project    |Category|Severity|
+|------------|---------|---------|
+|Fraxlend|Isolated Lending Pools|Critical|
 
 ## Private Audits
 
