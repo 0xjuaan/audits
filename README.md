@@ -1,9 +1,9 @@
 # Juan's Portfolio
 
 ## Summary
-- Achieved 7 top-3 placements in competitive audits
+- Achieved 8 top-3 placements in competitive audits
 - Senior Watson at [Sherlock](https://sherlock.xyz/)
-- Completed private audits with [Pashov Audit Group](https://x.com/PashovAuditGrp)
+- Private audits with [Pashov Audit Group](https://x.com/PashovAuditGrp)
 
 For an audit, reach out via:
 - Twitter: https://twitter.com/0xjuaan
@@ -14,6 +14,7 @@ For an audit, reach out via:
 | Contest    |Platform| Category                  | Ranking 🏆   | Findings 🔎|
 |------------|---------|------------------|-----------|----------|
 | [Arrakis x Valantis](https://audits.sherlock.xyz/contests/195)| Sherlock | Liquidity Management, RFQ AMM | **#1**/146 🥇| [6H (2 unique)](https://github.com/sherlock-audit/2024-03-arrakis-judging/issues?q=is%3Aissue+juaan+label%3AReward+)|
+|[Private contest](https://audits.sherlock.xyz/contests/845) | Sherlock | Token Vesting, Governance (on Solana) | **#1**/10 🥇 | 1M
 | [Numa Money](https://audits.sherlock.xyz/contests/554?filter=results)| Sherlock | Compound V2 Fork, Synthetic RWAs | **#2**/255 🥈| [2H, 3 M (3 unique mediums)](https://audits.sherlock.xyz/contests/554?filter=results)|
 | [Revert Lend](https://code4rena.com/audits/2024-03-revert-lend#top)| Code4rena | Lending, UniV3 integration |**#2**/105+ 🥈 | [2H, 3M (2 unique mediums)](https://github.com/0xjuaan/audits/blob/main/contests/2024-03-revert-lend.md) |
 | [Smilee Finance](https://audits.sherlock.xyz/contests/180)| Sherlock | Decentralized Options AMM | **#2**/173 🥈| [3M](https://github.com/0xjuaan/audits/blob/main/contests/2024-02-smilee-finance.md) |
@@ -29,7 +30,7 @@ My submissions for all audit contests can be found [here](https://audits.sherloc
 As a team with [@0xSpearmint](https://github.com/0xspearmint)
 | Project    |Category|Severity|
 |------------|---------|---------|
-|Fraxlend|Isolated Lending Pools|Critical|
+|Fraxlend|Isolated Lending Pools|High|
 
 ## Private Audits
 
@@ -38,6 +39,7 @@ As a team with [@0xSpearmint](https://github.com/0xspearmint)
 |[LayerZero](https://layerzero.network/)  |Pashov Audit Group|Message rate limiting functionality| 
 |[Peapods Finance](https://peapods.finance/)  |Pashov Audit Group|Novel yield mechanisms, Lending| 
 |[IVX Finance](https://www.ivx.fi/)|Sherlock|Decentralized options AMM| 
+|[Parallel Protocol](https://x.com/ParallelMoney)  |Bail Security|Overcollateralised, multichain stablecoins| 
 |[DYAD](https://www.dyadstable.xyz/)       |Pashov Audit Group|Stablecoin, Staking and incentives| 
 |[TokenFabric](https://tokenfabric.xyz/)|Pashov Audit Group| ERC20 Token launch|
 |[Nitro Finance](https://nitrofinance.xyz/)  |Pashov Audit Group|Concentrated Liquidity DEX| 
