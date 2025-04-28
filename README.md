@@ -1,9 +1,9 @@
 # Juan's Portfolio
 
 ## Summary
+- Securing DeFi protocols at [Obsidian Audits](https://x.com/ObsidianAudits)
 - Achieved 8 top-3 placements in competitive audits
 - Senior Watson at [Sherlock](https://sherlock.xyz/)
-- Private audits with [Pashov Audit Group](https://x.com/PashovAuditGrp)
 
 For an audit, reach out via:
 - Twitter: https://twitter.com/0xjuaan
