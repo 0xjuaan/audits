@@ -15,6 +15,7 @@ For an audit, reach out via:
 |------------|---------|------------------|-----------|----------|
 | [Arrakis x Valantis](https://audits.sherlock.xyz/contests/195)| Sherlock | Liquidity Management, RFQ AMM | **#1**/146 🥇| [6H (2 unique)](https://github.com/sherlock-audit/2024-03-arrakis-judging/issues?q=is%3Aissue+juaan+label%3AReward+)|
 |[Private contest](https://audits.sherlock.xyz/contests/845) | Sherlock | Token Vesting, Governance (on Solana) | **#1**/10 🥇 | 1M
+|[Pump fun](https://cantina.xyz/competitions/19c5a5a6-f68d-4da8-b185-3f28c7f97bc1/leaderboard) | Cantina | Bonding curve and AMM on Solana | **#1**/435 🥇 | 1M
 | [Numa Money](https://audits.sherlock.xyz/contests/554?filter=results)| Sherlock | Compound V2 Fork, Synthetic RWAs | **#2**/255 🥈| [2H, 3 M (3 unique mediums)](https://audits.sherlock.xyz/contests/554?filter=results)|
 | [Revert Lend](https://code4rena.com/audits/2024-03-revert-lend#top)| Code4rena | Lending, UniV3 integration |**#2**/105+ 🥈 | [2H, 3M (2 unique mediums)](https://github.com/0xjuaan/audits/blob/main/contests/2024-03-revert-lend.md) |
 | [Smilee Finance](https://audits.sherlock.xyz/contests/180)| Sherlock | Decentralized Options AMM | **#2**/173 🥈| [3M](https://github.com/0xjuaan/audits/blob/main/contests/2024-02-smilee-finance.md) |
