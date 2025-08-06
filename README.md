@@ -35,15 +35,7 @@ As a team with [@0xSpearmint](https://github.com/0xspearmint)
 
 ## Private Audits
 
-| Project    |Provider|Category|
-|------------|---------|---------|
-|[LayerZero](https://layerzero.network/)  |Pashov Audit Group|Message rate limiting functionality| 
-|[Peapods Finance](https://peapods.finance/)  |Pashov Audit Group|Novel yield mechanisms, Lending| 
-|[IVX Finance](https://www.ivx.fi/)|Sherlock|Decentralized options AMM| 
-|[Parallel Protocol](https://x.com/ParallelMoney)  |Bail Security|Overcollateralised, multichain stablecoins| 
-|[DYAD](https://www.dyadstable.xyz/)       |Pashov Audit Group|Stablecoin, Staking and incentives| 
-|[TokenFabric](https://tokenfabric.xyz/)|Pashov Audit Group| ERC20 Token launch|
-|[Nitro Finance](https://nitrofinance.xyz/)  |Pashov Audit Group|Concentrated Liquidity DEX| 
+View all my private audits here: [Obsidian Audits](https://github.com/ObsidianAudits)
 
 ## Content
 ### Youtube
